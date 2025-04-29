@@ -17,7 +17,9 @@ folder. Click start, start typing: "Windows Powershell" and if it appears, right
 it and choose: "Run as administrator". Enter something like the following in the window.
 (In this example I placed the contents of the zip file in C:\livestream.
 
+```powershell
 dir C:\livestream -Recurse | Unblock-File
+```
 
 Please use your brain here, and do this for the locations where you unzipped the file.
 
